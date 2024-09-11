@@ -1,0 +1,160 @@
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+  }
+ 
+
+  .w3-row-padding img {
+    margin-bottom: 12px;
+  }
+
+  /* Sidebar styles */
+  .w3-sidebar {
+    width: 120px;
+    background: #222;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  }
+
+  .w3-sidebar::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+  }
+
+  /* Main content styles */
+  #main {
+    margin-left: 120px;
+  }
+
+  /* Profile image styles */
+  .profile-image {
+    width: 100%;
+  }
+
+  /* Main image styles */
+  .main-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Skill bar styles */
+  .skill-bar {
+    height: 28px;
+  }
+
+  /* Custom horizontal rule styles */
+  .custom-hr {
+    width: 200px;
+  }
+
+  /* Service grid styles */
+  .service-grid {
+    margin: 0 -16px;
+  }
+
+  /* Project card styles */
+  .project-card {
+    margin-bottom: 16px;
+  }
+
+  /* Button styles */
+  .custom-button {
+    padding: 16px;
+    transition: all 0.3s ease;
+  }
+
+  /* Footer icon styles */
+  .footer-icon {
+    
+    transition: all 0.3s ease;
+  }
+
+  /* Add smooth hover effect to all interactive elements */
+  a, button, .w3-button, .w3-bar-item {
+    transition: all 0.3s ease;
+  }
+
+  /* Responsive styles */
+  /* Extra small devices (phones, less than 576px) */
+  @media only screen and (max-width: 575px) {
+    #main {
+      margin-left: 0;
+    }
+
+    .w3-sidebar {
+      width: 100%;
+      position: relative;
+    }
+
+    .w3-sidebar a {
+      float: left;
+    }
+
+    .w3-bar-block .w3-bar-item {
+      padding: 15px;
+    }
+
+    .small-navbar-item {
+      width: 16.66% !important;
+    }
+  }
+
+  /* Small devices (landscape phones, 576px and up) */
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    #main {
+      margin-left: 0;
+    }
+
+    .w3-sidebar {
+      width: 100%;
+      position: relative;
+    }
+    .profile-image{
+        width: 40%;
+        height: auto;
+        border-radius: 50%;
+    }
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .w3-sidebar {
+      width: 100px;
+    }
+
+    #main {
+      margin-left: 100px;
+    }
+    
+    
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .w3-sidebar {
+      width: 110px;
+    }
+
+    #main {
+      margin-left: 110px;
+    }
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    /* Default styles apply */
+  }
+
+  #popupMessage {
+    z-index: 9999;
+  }
+
+  .w3-modal-content {
+    max-width: 400px;
+    margin: auto;
+    background-color: #333;
+    color: #ddd;
+  }
